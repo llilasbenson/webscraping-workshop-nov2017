@@ -1,0 +1,12 @@
+setuptools
+requests
+numpy
+pandas
+matplotlib
+scipy
+sklearn
+jupyter
+jupyterlab
+textblob
+bs4
+lxml
