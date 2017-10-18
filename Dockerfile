@@ -1,6 +1,6 @@
-## PCDA Ubuntu Container
+## llilasbenson Ubuntu Container
 FROM ubuntu:16.04
-MAINTAINER Steve McLaughlin <stephen.mclaughlin@utexas.edu>
+MAINTAINER Maria Victoria Fernandez <maria.victoria.fernandez@utexas.edu>
 
 EXPOSE 8889
 ENV PYTHONWARNINGS="ignore:a true SSLContext object"
@@ -48,8 +48,6 @@ python-matplotlib \
 COPY ./requirements.txt /var/local/
 RUN pip install -qr /var/local/requirements.txt \
 && pip3 install -qr /var/local/requirements.txt \
-&& pip3 install nltk \
-&& python3 -m nltk.downloader -d /usr/local/share/nltk_data all
 RUN jupyter serverextension enable --py jupyterlab --sys-prefix
 
 ## Installing Python2 and Python3 kernels for Jupyter
