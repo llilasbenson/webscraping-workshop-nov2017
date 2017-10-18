@@ -10,3 +10,4 @@ jupyterlab
 textblob
 bs4
 lxml
+internetarchive
