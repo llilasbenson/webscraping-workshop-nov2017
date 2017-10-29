@@ -12,14 +12,14 @@ For more details on how Docker works, see this [overview](https://docs.docker.co
 2. Enter the following command in the terminal window to download the Docker image files we'll be using. This could take several minutes.
 
 
-```python
+```
 docker pull llilasbenson/webscraping-workshop-nov2017
 ```
 
 When the download is complete, enter the following command and hit 'enter' twice to run the container. This will create a new directory called `sharedfolder` on your desktop.
 
 
-```python
+```
 docker run --name llilasbenson_ubuntu -ti -p 8889:8889 --volume ~/Desktop/sharedfolder/:/sharedfolder/ llilasbenson/webscraping-workshop-nov2017
 ```
 
@@ -34,7 +34,7 @@ The command above includes several options:
 Open Terminal in macOS and launch the workshop Docker container:
 
 
-```python
+```
 docker rm -f llilasbenson_ubuntu
 docker pull llilasbenson/webscraping-workshop-nov2017
 docker run --name llilasbenson_ubuntu -ti -p 8889:8889 --volume ~/Desktop/sharedfolder/:/sharedfolder/ llilasbenson/webscraping-workshop-nov2017
@@ -45,7 +45,7 @@ docker run --name llilasbenson_ubuntu -ti -p 8889:8889 --volume ~/Desktop/shared
 In Windows 10, open PowerShell and enter the following to launch the Docker container. Remember to insert your username where indicated in the file path.
 
 
-```python
+```
 docker rm -f llilasbenson_ubuntu
 docker pull llilasbenson/webscraping-workshop-nov2017
 docker run --name llilasbenson_ubuntu -ti -p 8889:8889 --volume C:\Users\***username_here***\Desktop\sharedfolder:/sharedfolder/ llilasbenson/webscraping-workshop-nov2017
@@ -56,7 +56,7 @@ docker run --name llilasbenson_ubuntu -ti -p 8889:8889 --volume C:\Users\***user
 To launch a Jupyter notebook, open any browser and type :
 
 
-```python
+```
 localhost:8889
 ```
 
@@ -69,7 +69,7 @@ You’re now in the Jupyter environment. Here, you can create a series of "cells
 Type a line of code that prints a string. To run the current cell, either click the `►❙` icon or go to the "Cell" menu and choose "Run Cells."
 
 
-```python
+```
 print("Hello Jupyter!")
 ```
 
