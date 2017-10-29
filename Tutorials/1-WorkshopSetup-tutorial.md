@@ -62,7 +62,7 @@ localhost:8889
 
 Click the "New" in the upper right, then choose "Python 3" from the drop-down menu.
 
-![image-1.png](attachment:image-1.png)
+![] (images/image-1.png)
 
 You’re now in the Jupyter environment. Here, you can create a series of "cells" for individual chunks of code, which can be saved and run repeatedly. Click the ✚ icon on the top left to add a new cell.
 
@@ -73,6 +73,7 @@ Type a line of code that prints a string. To run the current cell, either click 
 print("Hello Jupyter!")
 ```
 
-![image-2.png](attachment:image-2.png)
+
+![] (images/image-2.png)
 
 Note that each cell’s output is displayed right below to the the code that produced it, which is a major benefit of working in Jupyter.
