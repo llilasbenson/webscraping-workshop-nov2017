@@ -81,7 +81,7 @@ print(clean_text)
 
 The 'pre' bit in the lines of code above is using css syntax to walk the structure of the HTML document to get to what we want. I know that I need those particular selectors because I have examined the HTML for the page to see how it is organized. You can do this by going to your webpage and inspecting the element that you want by right clicking on it and selecting "inspect element". This particular code says, "find the 'pre' tags. Once we have all that, print out the text of those 'pre' tags.
 
-Alright, so now that we've been able to extract the text from a single speech in the Castro speech database, let's expand the scope of our scraping to extract the text of hundreds of Castro speeches spanning several years!
+Alright, so now that we've been able to extract the text from a single speech in the Castro speech database, let's expand the scope of our scraping to extract the text of hundreds of Castro's speeches spanning several years!
 
 ## 3. Scraping Hundreds of Speeches from 1959-1970
 
