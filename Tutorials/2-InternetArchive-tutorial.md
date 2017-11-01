@@ -132,3 +132,36 @@ for result in search:
 ```
 
 Check your `JCB-Venezuela-Collection` folder. You should now have 20 PDFs of complete digital facsimiles from the JCB Venezuela collection!
+
+What if you want to download other file types, say text files or image files of the collection items you're interested in? You just have to make a few modifications to the for-loop to specify the file format you want to output.
+
+For plain text files, try
+
+
+```
+search = internetarchive.search_items('collection:jcbvenezuela')
+
+for result in search:
+    itemid = result['identifier']
+    item = internetarchive.get_item(itemid)
+    txt = item.get_file(itemid + '_djvu.txt')
+    txt.download()
+    print ("Downloading " + itemid + " ...")    
+
+```
+
+For image files, try the following but note that since these are large image files, it will take quite some time. 
+
+
+```
+search = internetarchive.search_items('collection:jcbvenezuela')
+
+for result in search:
+    itemid = result['identifier']
+    item = internetarchive.get_item(itemid)
+    jp2 = item.get_file(itemid + '_jp2.zip')
+    jp2.download()
+    print ("Downloading " + itemid + " ...")
+```
+
+Also, you may have noticed that for the IA JCB collections, image files are only provided in .jp2 format. But you can easily batch convert these files into more usable formats like .jpg and .tif on your computer using Adobe Bridge (free) or open-source software such as XnConvert.
