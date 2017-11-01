@@ -25,7 +25,7 @@ To learn more about the Internet Archive Python Library, check out https://inter
 
 Now that everything is set up with your account, you're ready to explore and webscrape collections throughout the Internet Archive!
 
-For today's workshop, we will be focusing on the John Carter Brown Library's Venezuela collection https://archive.org/details/jcbvenezuela. This collection consists of 20 primary sources printed shortly after the first printing press arrived in Venezuela in 1808 and the wars of independence (1810-1823). It is important to note that these items are exclusively held by the John Carter Brown Library and no other copies exist at other institutions. Thus, this collection of primary sources is unique and is of potentially great research value for scholars of nineteenth-century Venezuela.
+For today's workshop, we will be focusing on the John Carter Brown Library's Venezuela collection https://archive.org/details/jcbvenezuela. This collection consists of 20 primary sources printed shortly after the first printing press arrived in Venezuela in 1808 and the wars of independence (1810-1823). It is important to note that these items are exclusively held by the John Carter Brown Library and no other copies exist at other institutions. Thus, this collection of primary sources is unique and of potentially great research value for scholars of nineteenth-century Venezuela.
 
 Note that this is a fairly small collection of only approximately 20 documents and books. 
 When webscraping, you are generally dealing with large collections (i.e. collections containing hundreds or thousands of items that trying to download manually one by one would be impractical, not to mention mind-numbingly tedious). 
