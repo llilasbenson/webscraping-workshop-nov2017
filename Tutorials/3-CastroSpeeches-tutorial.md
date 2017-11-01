@@ -182,7 +182,7 @@ with open('urls-speeches.txt', 'w') as file_out:
         file_out.write('\n')
 ```
 
-Now we have a text file containing all the URLs we want to scrape content from. Open the Castro's shared folder on the desktop to open the `urls-speeches.txt` file we just made.
+Now we have a text file containing all the URLs we want to scrape content from. Navigate to the Castro_speeches folder within the shared folder on the desktop to open the `urls-speeches.txt` file we just made.
 
 The next step is to create a new folder called 'speeches' where we'll dump all the text we scrape from the list of URLs we have.
 
