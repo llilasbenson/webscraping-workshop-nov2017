@@ -5,6 +5,8 @@ Docker is an application that makes it possible to run a virtual copy of the Lin
 
 For more details on how Docker works, see this [overview](https://docs.docker.com/engine/docker-overview/).
 
+Three ways to set up docker are outlined below to run it on either the PCL data lab Macs, your Mac, or your PC.
+
 ### How to run Docker on the PCL Data Lab Macs
 
 1. Open a new terminal window.
