@@ -80,7 +80,7 @@ If you were to run this command with the larger Spanish America collection, Pyth
 
 ## Webscraping the JCB Venezuela Collection
 
-### 1. Scraping all the files associated with an IA book
+### 1. Scraping all the files associated with an IA collection item
 
 Now that we've learned how to navigate a bit through the IA collections, we're ready to try our hand at scraping files at both the item and collection level. 
 
