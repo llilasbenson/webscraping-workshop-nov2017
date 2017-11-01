@@ -121,8 +121,6 @@ Remember that this function can be scaled up to work with much larger collection
 
 
 ```
-import internetarchive 
-
 search = internetarchive.search_items('collection:jcbvenezuela')
 
 for result in search:
