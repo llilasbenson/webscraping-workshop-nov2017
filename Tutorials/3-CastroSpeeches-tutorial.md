@@ -92,7 +92,7 @@ First, create a new folder within your shared folder on the desktop to hold the 
 
 ```
 import os
-!mkdir -p castro_speeches/indices-of-speeches_1959to1970
+os.mkdir('castro_speeches/indices-of-speeches_1959to1970')
 os.chdir('castro_speeches/indices-of-speeches_1959to1970')
 ```
 
